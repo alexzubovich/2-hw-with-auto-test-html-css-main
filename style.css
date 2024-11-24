@@ -83,7 +83,7 @@ select {
 .frameworks-list {
   /* Стили для маркированного списка во второй секции */
   list-style-image: url(./assets/images/map-arrow-up-bold.svg);
-  padding-left: 20px;
+  padding: 0 20px;
   font-size: 16px;
   font-weight: 400;
   font-style: normal;
@@ -94,7 +94,7 @@ select {
   font-size: 16px;
   font-weight: 400;
   font-style: normal;
-  padding-left: 20px;
+  padding: 0 20px;
 }
 
 .label {
@@ -136,6 +136,7 @@ select {
 table {
   /* Стили для таблицы */
   border-collapse: collapse;
+  font-size: 14px;
 }
 
 th,
@@ -157,4 +158,5 @@ footer {
   font-size: 14px;
   font-weight: 400;
   font-style: normal;
+  text-decoration-line: none;
 }
